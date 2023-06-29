@@ -11,7 +11,7 @@ import SwiftUI
 struct DigiSymbolsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootScreen()
         }
     }
 }

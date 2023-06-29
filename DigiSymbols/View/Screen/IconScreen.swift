@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeScreen.swift
 //  DigiSymbols
 //
 //  Created by a on 6/28/23.
@@ -7,20 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct IconScreen: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+        
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+        }
     }
+
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
+//#Preview("HomeScreen") {
+//    Text("hello")
+//}
